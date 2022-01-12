@@ -21,6 +21,7 @@ export default {
     Pager,
   },
 };
+Promise.all();
 </script>
 
 <style scped>
