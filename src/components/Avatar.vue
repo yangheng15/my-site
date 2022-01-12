@@ -1,33 +1,33 @@
 <template>
-  <img
-    class="avatar-img"
-    :src="url"
-    :style="{ width: size + 'px', height: size + 'px' }"
-  />
+    <img
+        class="avatar-img"
+        :src="url"
+        :style="{ width: size + 'px', height: size + 'px' }"
+    />
 </template>
 
 <script>
 export default {
-  props: {
-    url: {
-      type: String,
-      required: true,
-      default: "",
+    props: {
+        url: {
+            type: String,
+            required: true,
+            default: "",
+        },
+        size: {
+            type: Number,
+            default: 50,
+        },
     },
-    size: {
-      type: Number,
-      default: 50,
+    methods: {
+        test() {},
     },
-  },
-  methods: {
-    test() {},
-  },
 };
 </script>
 
 <style lang="less" scoped>
 .avatar-img {
-  border-radius: 50%;
-  object-fit: cover;
+    border-radius: 50%;
+    object-fit: cover;
 }
 </style>
