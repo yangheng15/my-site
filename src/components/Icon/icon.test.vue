@@ -1,11 +1,16 @@
 <template>
-    <div id="app"></div>
+    <div id="app">
+        <Icon type="home" />
+    </div>
 </template>
 
 <script>
+import Icon from './components/Icon/index.vue';
 export default {
     name: 'App',
-    components: {},
+    components: {
+        Icon,
+    },
     data() {
         return {};
     },
