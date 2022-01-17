@@ -1,11 +1,13 @@
 <template>
     <div id="app">
-        <Empty text="暂无数据" />
+        <div class="test-container">
+            <Empty text="暂无数据"/>
+        </div>
     </div>
 </template>
 
 <script>
-import Empty from './components/Empty';
+import Empty from './';
 export default {
     name: 'App',
     components: {
@@ -19,8 +21,10 @@ export default {
 </script>
 
 <style scped>
-/* .icon-container {
-    font-size: 26px;
-    color: red;
-} */
+.test-container {
+    width: 500px;
+    height: 400px;
+    border: 1px solid #ccc;
+    position: relative;
+}
 </style>
