@@ -10,7 +10,8 @@
         "test:Avatar": "vue serve ./src/components/Avatar/avatar.test.vue",
         "test:Icon": "vue serve ./src/components/Icon/icon.test.vue",
         "test:Empty": "vue serve ./src/components/Empty/empty.test.vue",
-        "test:ImageLoder": "vue serve ./src/components/ImageLoader/image.test.vue"
+        "test:ImageLoder": "vue serve ./src/components/ImageLoader/image.test.vue",
+        "test:Contact": "vue serve ./src/components/Contact/contact.test.vue"
     },
     "dependencies": {
         "core-js": "^3.6.5",

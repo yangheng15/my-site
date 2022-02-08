@@ -1,5 +1,5 @@
 <template>
-    <i :class="['iconfont', 'icon-container', fontSize]" />
+    <i :class="['iconfont', 'icon-container', className]" />
 </template>
 
 <script>
@@ -30,7 +30,7 @@ export default {
         },
     },
     computed: {
-        fontSize() {
+        className() {
             return classMap[this.type];
         },
     },
@@ -39,4 +39,8 @@ export default {
 
 <style scoped>
 @import "//at.alicdn.com/t/font_2164449_nalfgtq7il.css";
+.icon-container {
+    font-size: inherit;
+    color: inherit;
+}
 </style>
